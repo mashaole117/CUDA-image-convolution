@@ -1,0 +1,368 @@
+
+MapSMtoCores for SM 6.1 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1060 6GB" with compute capability 6.1
+
+
+|---------------------------------------------------------------|
+|-------------------------GLOBAL MEM----------------------------|
+|---------------------------------------------------------------|
+
+
+IMAGE_21
+---------------------
+Sharpening
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Sharpening execution...
+Sharpen processing time: 9.052000 (ms)
+28.96 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.049000 (ms)
+5349.88 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+Edge Detection
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Edge detection execution...
+Edge detection processing time: 9.378000 (ms)
+27.95 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.050000 (ms)
+5242.88 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+
+Averaging 3x3
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 8.887000 (ms)
+29.50 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.049000 (ms)
+5349.88 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+
+Averaging 5x5
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 22.612000 (ms)
+11.59 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.077000 (ms)
+3404.47 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+Averaging 7x7
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 42.748001 (ms)
+6.13 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.126000 (ms)
+2080.51 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+Kernel and serial completed, returned OK
+-----------------------------------------
+
+
+LENA_BW
+------------------------------------
+
+Averaging 3x3
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 8.862000 (ms)
+29.58 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.052000 (ms)
+5041.23 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+Averaging 5x5
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 22.834000 (ms)
+11.48 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.078000 (ms)
+3360.82 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+Averaging 7x7
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 42.625999 (ms)
+6.15 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.142000 (ms)
+1846.08 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+Edge detection
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Edge detection execution...
+Edge detection processing time: 8.979000 (ms)
+29.20 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.050000 (ms)
+5242.88 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+Kernel and serial completed, returned OK
+
+Sharpening
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Sharpening execution...
+Sharpen processing time: 8.973000 (ms)
+29.21 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.048000 (ms)
+5461.33 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+Kernel and serial completed, returned OK
+/-----------------------------------------------------/
+
+
+|---------------------------------------------------------------|
+|-------------------------SHARED MEM----------------------------|
+|---------------------------------------------------------------|
+
+IMAGE21
+---------------------------
+Sharpening
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Sharpening execution...
+Sharpen processing time: 8.870000 (ms)
+29.55 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.058000 (ms)
+4519.72 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+0.77(%) of bytes mismatched (count=2030)
+Kernel and serial completed, returned OK
+
+Edge detection
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Edge detection execution...
+Edge detection processing time: 8.988000 (ms)
+29.17 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.057000 (ms)
+4599.02 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+0.71(%) of bytes mismatched (count=1866)
+Kernel and serial completed, returned OK
+
+Averaging 3x3
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 8.878000 (ms)
+29.53 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.058000 (ms)
+4519.72 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+0.77(%) of bytes mismatched (count=2027)
+Kernel and serial completed, returned OK
+
+Averaging 5x5
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 22.539000 (ms)
+11.63 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.093000 (ms)
+2818.75 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+1.55(%) of bytes mismatched (count=4054)
+Kernel and serial completed, returned OK
+MapSMtoCores for SM 6.1 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1060 6GB" with compute capability 6.1
+
+Averaging 7x7
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 42.662998 (ms)
+6.14 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.142000 (ms)
+1846.08 Mpixels/sec
+Wrote './helperFiles/data/image21_out_gpu.pgm'
+2.32(%) of bytes mismatched (count=6087)
+Kernel and serial completed, returned OK
+MapSMtoCores for SM 6.1 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1060 6GB" with compute capability 6.1
+-----------------------------------------------
+
+
+LENA_BW
+---------------------------------
+MapSMtoCores for SM 6.1 is undefined.  Default to use 128 Cores/SM
+GPU Device 0: "GeForce GTX 1060 6GB" with compute capability 6.1
+
+Averaging 3x3
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 8.906000 (ms)
+29.43 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.059000 (ms)
+4443.12 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+0.78(%) of bytes mismatched (count=2044)
+Kernel and serial completed, returned OK
+
+
+Averaging 5x5
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 22.589001 (ms)
+11.60 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.089000 (ms)
+2945.44 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+1.56(%) of bytes mismatched (count=4080)
+Kernel and serial completed, returned OK
+
+Averaging 7x7
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Averaging execution...
+Averaging processing time: 43.068001 (ms)
+6.09 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.137000 (ms)
+1913.46 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+2.33(%) of bytes mismatched (count=6108)
+Kernel and serial completed, returned OK
+
+Edge detection
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Edge detection execution...
+Edge detection processing time: 9.020000 (ms)
+29.06 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.057000 (ms)
+4599.02 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+0.75(%) of bytes mismatched (count=1965)
+Kernel and serial completed, returned OK
+
+Sharpening
+
+Loaded image, 512 x 512 pixels
+Serial convolution starting...
+Sharpening execution...
+Sharpen processing time: 8.955000 (ms)
+29.27 Mpixels/sec
+Allocating device memory...
+Copying data from host data to device...
+Input done
+Staring kernel execution...
+Processing time: 0.058000 (ms)
+4519.72 Mpixels/sec
+Wrote './helperFiles/data/lena_bw_out_gpu.pgm'
+0.78(%) of bytes mismatched (count=2044)
+Kernel and serial completed, returned OK
+/----------------------------------------------------------------/
